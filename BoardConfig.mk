@@ -1,3 +1,4 @@
+MALLOC_IMPL := dlmalloc
 # Platform
 TARGET_BOARD_PLATFORM := msm8226
 # Architecture
@@ -52,6 +53,4 @@ TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun0/file
 # Time services
 BOARD_USES_QC_TIME_SERVICES := true
-# Hz, nuzhno dlya compilyacii, vrode kak
-MALLOC_IMPL := dlmalloc
 

@@ -1,0 +1,8 @@
+[
+	{
+		"remote":"github",
+    		"repository":"TeamWin/android_kernel_samsung_msm8226",
+    		"target_path":"kernel/samsung/msm8226",
+		"revision":"android-7.1"
+	}
+]

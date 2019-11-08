@@ -9,4 +9,7 @@
 /external_sd   vfat      /dev/block/mmcblk1p1 /dev/block/mmcblk1              flags=display="Micro SDcard";storage;wipeingui;removable
 /modem         emmc      /dev/block/platform/msm_sdcc.1/by-name/modem	      flags=backup=1;display="Modem"
 /preload       ext4      /dev/block/mmcblk0p25                                flags=display="Preload";wipeingui;backup=1
-/usbstorage    vfat	 /dev/block/sda1				      flags=display="USB Storage";storage;removable
+/misc          emmc      /dev/block/platform/msm_sdcc.1/by-name/fota          flags=display="Misc"
+
+/external_sd   auto      /dev/block/mmcblk1p1    /dev/block/mmcblk1           flags=display="MicroSD";storage;wipeingui;removable
+/usb-otg       auto      /dev/block/sda1         /dev/block/sda               flags=display="USB OTG";storage;wipeingui;removable

@@ -1,1 +1,0 @@
-PRODUCT_COPY_FILES += device/samsung/s3ve3g/twrp.fstab:recovery/root/etc/twrp.fstab

@@ -16,6 +16,24 @@
       "message": "Please test the build here to make sure it works properly: https://jenkins.twrp.me/view/test/job/s3ve3g-test/5/console\n\nAfter that I can run a prod build.",
       "revId": "5f394097b4c5d3b1c1b0e6f8ca1ea668adbe70ef",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "26b1cf61_b7617bc5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1111
+      },
+      "writtenOn": "2023-05-19T14:47:50Z",
+      "side": 1,
+      "message": "The test build works as intended on both variants, s3ve3g and s3ve3gds.",
+      "parentUuid": "5bd30efb_df248d5f",
+      "revId": "5f394097b4c5d3b1c1b0e6f8ca1ea668adbe70ef",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     }
   ],
   "submitRequirementResults": []
